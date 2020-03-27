@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="timda_mobile_platform">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.074645 -4.8E-06 0.12685"
+        rpy="0 0 0" />
+      <mass
+        value="45" />
+      <inertia
+        ixx="0.13639"
+        ixy="-0.00052166"
+        ixz="-4.6978E-05"
+        iyy="0.11714"
+        iyz="3.4276E-05"
+        izz="0.22097" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://timda_mobile_platform/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://timda_mobile_platform/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
